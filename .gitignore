@@ -1,0 +1,20 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+env/
+.env/
+.venv/
+
+# Data sets
+data/
+
+# Large Model weights (Optional: typically you don't version control these)
+*.pth
+
+# OS annoying files
+.DS_Store
+Thumbs.db
