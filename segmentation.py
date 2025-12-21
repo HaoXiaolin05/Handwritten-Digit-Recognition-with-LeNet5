@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 from original import LeNet5 as LeNet5org
 from improve import LeNet5 as LeNet5imp
 
-IMAGE_PATH = "images/test6.jpg"
+IMAGE_PATH = "images/test1.jpg"
 num = 235
 
 def predit_line_of_digits(image_path, device, modelOrg, transformOrg, modelImp, transformImp):
